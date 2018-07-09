@@ -3,8 +3,8 @@
 
 ## 效果图
 <div>
-<img src="https://github.com/yangxch/TBSVideoPlay/raw/master/screenshot/vertical_screen.jpg" width="35%" height="35%">
+<img src="https://github.com/yangxch/TBSVideoPlay/raw/master/screenshot/vertical_screen.jpg" width="32%" height="32%">
   <br><br>
-<img src="https://github.com/yangxch/TBSVideoPlay/raw/master/screenshot/horizontal_screen.png" width="35%" height="35%">
+<img src="https://github.com/yangxch/TBSVideoPlay/raw/master/screenshot/horizontal_screen.png" width="55%" height="32%">
 </div>
 
