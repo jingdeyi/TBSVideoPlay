@@ -1,0 +1,2 @@
+# TBSVideoPlay
+利用腾讯浏览服务TBS，在Android应用内实现视频的播放，支持视频格式远多于系统WebView
