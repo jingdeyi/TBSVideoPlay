@@ -19,7 +19,8 @@ public class VideoPlayActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_video_play);
         getIntentData();
-        initView(videoUrl);
+        initView();
+        startPlay(videoUrl);
     }
 
     /**
@@ -42,9 +43,15 @@ public class VideoPlayActivity extends AppCompatActivity {
         videoUrl = intent.getStringExtra("videoUrl");
     }
 
-    private void initView(String vedioUrl) {
+    private void initView() {
         x5webView = findViewById(R.id.x5_webview);
+    }
 
+    /**
+     * 使用自定义webview播放视频
+     * @param vedioUrl 视频地址
+     */
+    private void startPlay(String vedioUrl) {
         x5webView.loadUrl(vedioUrl);
         getWindow().setFormat(PixelFormat.TRANSLUCENT);
         x5webView.getView().setOverScrollMode(View.OVER_SCROLL_ALWAYS);
