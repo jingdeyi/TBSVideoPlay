@@ -10,7 +10,7 @@ import com.tencent.smtt.sdk.TbsVideo;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     private Button btn_tbs_videoPlay;
-    private String videoUrl="http://123.207.239.170/See%20You%20Again.mp4";//视频地址(运行时请确认此链接是否还可用，如不可用换一个就行)
+    private String videoUrl="http://111.231.191.26/See%20You%20Again.mp4";//视频地址(运行时请确认此链接是否还可用，如不可用换一个就行)
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
